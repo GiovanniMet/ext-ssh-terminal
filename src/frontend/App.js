@@ -1,7 +1,7 @@
 import { createElement, PropTypes } from '@plesk/ui-library';
-import Term from './containers/Term';
+import Terminal from './containers/Term';
 
-const App = props => <Term {...props} />;
+const App = props => <Terminal {...props} />;
 
 App.propTypes = {
     login: PropTypes.string.isRequired,
